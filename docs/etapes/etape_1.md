@@ -5,5 +5,5 @@ parent: Etapes de fabrication
 nav_order: 1
 ---
 
-### Etape 1: CONCEPTION MECANIQUE (Onshape)
+### PARTIE 1: CONCEPTION MECANIQUE (Onshape) 
 
