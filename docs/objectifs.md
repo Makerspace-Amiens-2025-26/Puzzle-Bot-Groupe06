@@ -22,13 +22,13 @@ Notre projet Puzzle Bot s’inscrit dans le cadre de notre formation d’ingéni
 L'objectif principal de projet est de concevoir et réaliser une machine capable d'assembler automatiquement un puzzle à pièces (jigsaw), depuis la détection des pièces jusqu'à leur placement précis dans la configuration finale.
 
 Cet objectif global se décline en plusieurs objectifs techniques :
--Détection et identification des pièces: Nous avons mis en œuvre un système de vision par ordinateur permettant de localiser chaque pièce du puzzle, d'analyser sa forme et son orientation, et de déterminer sa position cible dans l'assemblage final.
+-Détection et identification des pièces: nous avons mis en œuvre un système de vision par ordinateur permettant de localiser chaque pièce du puzzle, d'analyser sa forme et son orientation, et de déterminer sa position cible dans l'assemblage final.
 
--Contrôle du mouvement: Nous avons développer un système de déplacement précis piloté par Arduino et CNC Shield, intégrant des moteurs pas à pas et servomoteurs pour assurer la saisie et le positionnement des pièces avec la fidélité requise.
+-Contrôle du mouvement: nous avons développer un système de déplacement précis piloté par Arduino et CNC Shield, intégrant des moteurs pas à pas et servomoteurs pour assurer la saisie et le positionnement des pièces avec la fidélité requise.
 
--Conception et fabrication mécanique: Nous avons modéliser l'ensemble de la structure sous Onshape et fabriquer les pièces via impression 3D et découpe laser, en garantissant rigidité, répétabilité et facilité d'assemblage.
+-Conception et fabrication mécanique: nous avons modéliser l'ensemble de la structure sous Onshape et fabriquer les pièces via impression 3D et découpe laser, en garantissant rigidité, répétabilité et facilité d'assemblage.
 
--Robustesse et fiabilité du système: Il s'agit pour nous de faire évoluer notre Proof of Concept (POC) initial vers une version finale stable, capable de fonctionner de manière autonome et continue sans défaillance lors de la démonstration.
+-Robustesse et fiabilité du système: il s'agit pour nous de faire évoluer notre Proof of Concept (POC) initial vers une version finale stable, capable de fonctionner de manière autonome et continue sans défaillance lors de la démonstration.
 
 -Documentation et transmissibilité: La production de notre documentation technique suffisamment claire et détaillée pour qu'une équipe tierce puisse reproduire ou améliorer la machine à partir des sources fournies
 
