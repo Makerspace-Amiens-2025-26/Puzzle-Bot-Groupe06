@@ -5,6 +5,8 @@ parent: Etapes de fabrication
 nav_order: 1
 ---
 
+junior
+
 # Préparation des Matériaux
 
 Cette section décrit la première étape du processus de fabrication : la préparation des matériaux.
