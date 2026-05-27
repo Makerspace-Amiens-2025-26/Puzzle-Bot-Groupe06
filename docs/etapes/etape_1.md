@@ -1,2 +1,2 @@
-### PARTIE 1: CONCEPTION MECANIQUE (Onshape) 
+### Etape 1: CONCEPTION MECANIQUE (Onshape) 
 
