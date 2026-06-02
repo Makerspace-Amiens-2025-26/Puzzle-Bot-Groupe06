@@ -31,6 +31,10 @@ Le préhenseur pneumatique est piloté par deux composants distincts depuis l'Ar
 
 **Pompe à air DC 4.5V**
 La pompe est connectée aux sorties de la **carte driver L9110**, elle-même reliée à une broche PWM de l'Arduino (via le CNC Shield ou directement). Le L9110 joue le rôle d'interface de puissance, permettant à l'Arduino de commander la pompe sans risquer d'endommager ses sorties numériques. Les bornes d'alimentation du L9110 sont raccordées au 5V de l'alimentation secteur.
+<img width="570" height="739" alt="Capture d&#39;écran 2026-06-01 180127" src="https://github.com/user-attachments/assets/b4542276-3fca-4a6a-a50c-af707833ecc3" />
+
+
+
 
 **Électrovanne 5V**
 L'électrovanne est pilotée depuis une broche numérique de l'Arduino. Elle est alimentée en 5V depuis l'alimentation secteur. Lorsqu'elle est activée (ouverte), elle libère la dépression du circuit et provoque le relâchement de la pièce ; lorsqu'elle est fermée, la dépression est maintenue et la pièce reste saisie par la ventouse.
