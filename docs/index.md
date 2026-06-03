@@ -25,9 +25,8 @@ Décrivez ici en quelques lignes l'objectif et l'aperçu général de votre proj
 
 ## Poster
 
-Ici vous publierez le poster de votre projet.
+<img width="2000" height="1414" alt="Poster-Groupe6" src="https://github.com/user-attachments/assets/cbd68453-8ac6-4647-8e1a-5a5c17a2ab68" />
 
-![Poster projet](images/poster.jpg)
 
 ## Vidéo
 
