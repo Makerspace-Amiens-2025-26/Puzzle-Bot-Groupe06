@@ -9,7 +9,7 @@ permalink: /
 
 # Bienvenue sur notre documentation
 
-Bienvenue dans la documentation du projet XY. Ce site a pour but de fournir toutes les informations nécessaires pour comprendre, utiliser et reproduire efficacement notre projet.
+Bienvenue sur la documentation technique de notre Puzzle Bot, projet réalisé dans le cadre de notre cursus d'ingénierie au MakerSpace d'UniLaSalle Amiens (2025–2026). Ce site a pour but de fournir toutes les informations nécessaires pour comprendre, reproduire et améliorer notre machine.
 
 [Notre projet sur Onshape](https://cad.onshape.com/documents/2860ed3d58f1b518e6857770/w/82b3c0e474623135ccb76fa3/e/0cab16137cd459ee83ebe56e?renderMode=0&uiState=6936dc0e23fecc27d34268b2){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [Notre repo GitHub](https://github.com/Makerspace-Amiens/template-project){: .btn .fs-5 .mb-4 .mb-md-0 }
@@ -20,10 +20,20 @@ Bienvenue dans la documentation du projet XY. Ce site a pour but de fournir tout
 >Pour intégrer la visualisation de votre projet Onshape, utilisez le site https://modelembedder.net . Activez le partage par lien via l'outil de partage de Onshape. n'oubliez pas d'activer l'option "export". Puis completez l'iframe ci-dessus avec le lien généré par le site https://modelembedder.net. Vous pouvez mettre à jour également le bouton avec le lien de partage de votre modèle.
 
 
-## À propos du Projet
+## À propos du Proje
+Le Puzzle Bot est une machine autonome capable d'assembler un puzzle à pièces (jigsaw) sans aucune intervention humaine. Elle repose sur une architecture cartésienne à trois axes (X, Y, A), pilotée par une carte Arduino Uno associée à un CNC Shield. La détection et la localisation des pièces sont assurées par vision par ordinateur, grâce à des tags Aruco et une caméra USB traitée en Python via OpenCV. La saisie des pièces est réalisée par un système pneumatique composé d'une pompe, d'une électrovanne et d'une ventouse.
+Ce projet s'adresse à tout ingénieur ou maker souhaitant concevoir une machine automatisée combinant mécanique, électronique, logiciel embarqué et vision artificielle. Notre documentation a été rédigée pour être suffisamment claire et détaillée afin qu'une équipe tierce puisse reproduire ou améliorer le système à partir des sources fournies.
 
-Décrivez ici en quelques lignes l'objectif et l'aperçu général de votre projet. Quel est son but ? À qui est-il destiné ? Quels problèmes cherche-t-il à résoudre ?
+## L'équipe — Groupe 06
+- ## Conception et Prototypage: Yacine Benhedia et Anass Zahti
+- ## Programmation et montage électronique: Alladaye Daril et Georges-Henri Nechie Gadom
+- ## Vision par Ordinateur: Nicolas Huguenot et Abdelhamid Tissir
 
+Notre documentation est organisée en trois grandes parties correspondant aux phases de développement de notre projet :
+
+Étape 1 — Conception mécanique : modélisation de la structure cartésienne sous Onshape, choix des profilés aluminium 20x20, fabrication des pièces par impression 3D et découpe laser.
+Étape 2 — Montage électronique : câblage de l'Arduino Uno, du CNC Shield et des drivers A4988, pilotage du système pneumatique via le driver L9110.
+Étape 3 — Programmation & Vision : implémentation Python avec OpenCV pour la détection des tags Aruco, extraction des coordonnées et communication série avec l'Arduino.
 
 ## Poster
 
