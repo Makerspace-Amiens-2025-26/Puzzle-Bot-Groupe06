@@ -32,7 +32,9 @@ Ce projet s'adresse à tout ingénieur ou maker souhaitant concevoir une machine
 Notre documentation est organisée en trois grandes parties correspondant aux phases de développement de notre projet :
 
 Étape 1 — Conception mécanique : modélisation de la structure cartésienne sous Onshape, choix des profilés aluminium 20x20, fabrication des pièces par impression 3D et découpe laser.
+
 Étape 2 — Montage électronique : câblage de l'Arduino Uno, du CNC Shield et des drivers A4988, pilotage du système pneumatique via le driver L9110.
+
 Étape 3 — Programmation & Vision : implémentation Python avec OpenCV pour la détection des tags Aruco, extraction des coordonnées et communication série avec l'Arduino.
 
 ## Poster
