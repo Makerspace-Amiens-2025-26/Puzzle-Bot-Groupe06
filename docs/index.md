@@ -20,7 +20,7 @@ Bienvenue sur la documentation technique de notre Puzzle Bot, projet réalisé d
 >Pour intégrer la visualisation de votre projet Onshape, utilisez le site https://modelembedder.net . Activez le partage par lien via l'outil de partage de Onshape. n'oubliez pas d'activer l'option "export". Puis completez l'iframe ci-dessus avec le lien généré par le site https://modelembedder.net. Vous pouvez mettre à jour également le bouton avec le lien de partage de votre modèle.
 
 
-## À propos du Proje
+## À propos du Projet
 Le Puzzle Bot est une machine autonome capable d'assembler un puzzle à pièces (jigsaw) sans aucune intervention humaine. Elle repose sur une architecture cartésienne à trois axes (X, Y, A), pilotée par une carte Arduino Uno associée à un CNC Shield. La détection et la localisation des pièces sont assurées par vision par ordinateur, grâce à des tags Aruco et une caméra USB traitée en Python via OpenCV. La saisie des pièces est réalisée par un système pneumatique composé d'une pompe, d'une électrovanne et d'une ventouse.
 Ce projet s'adresse à tout ingénieur ou maker souhaitant concevoir une machine automatisée combinant mécanique, électronique, logiciel embarqué et vision artificielle. Notre documentation a été rédigée pour être suffisamment claire et détaillée afin qu'une équipe tierce puisse reproduire ou améliorer le système à partir des sources fournies.
 
