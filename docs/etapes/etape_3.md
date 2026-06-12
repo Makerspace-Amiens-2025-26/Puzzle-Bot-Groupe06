@@ -50,6 +50,7 @@ cap.release()
 cv2.destroyAllWindows()
 
 
+
 ## 2eme code :
 Ce code permet de détecter les tags Aruco, tout en affichant la dictance entre la caméra et le tag détecter. Tout comme le premier code, il permet de détecter les tags en affichant un carré vert autour du tag, et un carré rouge est apparaît sur le coin en haut à gauche de chaque tag pour détecter la position de celui ci. Cependant, ce code permet de plus d’afficher le centre des tags détecté par un point rouge, ainsi que la position du centre de chaque tags en fonction de x et y (en pixel)
 
