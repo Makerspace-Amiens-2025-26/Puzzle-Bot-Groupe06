@@ -12,14 +12,14 @@ Ce code permet de détecter les tags Aruco. Dès que la caméra détecte un tags
 import cv2
 import time
 
-# --- Initialisation caméra ---
+\# --- Initialisation caméra ---
 cap = cv2.VideoCapture(2)
 time.sleep(1)
 
 for _ in range(10):
     cap.read()
 
-# --- Initialisation ArUco (compatible OpenCV 4.13) ---
+\# --- Initialisation ArUco (compatible OpenCV 4.13) ---
 aruco_dict = cv2.aruco.getPredefinedDictionary(cv2.aruco.DICT_4X4_50)
 aruco_params = cv2.aruco.DetectorParameters()
 
@@ -29,18 +29,18 @@ while True:
         print("Aucune image reçue...")
         break
 
-    # --- Détection ArUco ---
+    \# --- Détection ArUco ---
     corners, ids, rejected = cv2.aruco.detectMarkers(
         frame,
         aruco_dict,
         parameters=aruco_params
     )
 
-    # --- Dessiner les marqueurs détectés ---
+    \# --- Dessiner les marqueurs détectés ---
     if ids is not None:
         cv2.aruco.drawDetectedMarkers(frame, corners, ids)
 
-    # --- Affichage ---
+    \# --- Affichage ---
     cv2.imshow("DroidCam + ArUco", frame)
 
     if cv2.waitKey(1) & 0xFF == ord('q'):
@@ -57,14 +57,14 @@ import cv2
 import numpy as np
 import math
 
-# --- Camera ---
+\# --- Camera ---
 cap = cv2.VideoCapture(2, cv2.CAP_DSHOW)
 
 if not cap.isOpened():
     print("Impossible d'ouvrir la caméra")
     exit()
 
-# --- ArUco ---
+\# --- ArUco ---
 aruco_dict = cv2.aruco.getPredefinedDictionary(
     cv2.aruco.DICT_4X4_50
 )
@@ -91,26 +91,26 @@ while True:
 
         for i in range(len(ids)):
 
-            # Coins du tag
+            \# Coins du tag
             pts = corners[i][0]
 
-            # Centre
+            \# Centre
             cx = int(np.mean(pts[:, 0]))
             cy = int(np.mean(pts[:, 1]))
 
-            # Coin 0 -> coin 1
+            \# Coin 0 -> coin 1
             x1, y1 = pts[0]
             x2, y2 = pts[1]
 
-            # Angle
+            \# Angle
             angle = math.degrees(
                 math.atan2(y2 - y1, x2 - x1)
             )
 
-            # ID
+            \# ID
             tag_id = ids[i][0]
 
-            # Affichage texte
+            \# Affichage texte
             text = f"ID:{tag_id} A:{angle:.1f}"
 
             cv2.putText(
@@ -123,7 +123,7 @@ while True:
                 2
             )
 
-            # Centre
+            \# Centre
             cv2.circle(frame, (cx, cy), 5, (0, 0, 255), -1)
 
             print(
