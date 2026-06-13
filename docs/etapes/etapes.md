@@ -3,64 +3,68 @@
 
 Le déplacement de notre Puzzle Bot est assuré par trois moteurs pas à pas commandés par une carte Arduino Uno via un CNC Shield équipé de drivers A4988. Le programme présenté ci-dessous a pour objectif de vérifier le bon fonctionnement des axes X, Y et A en réalisant un déplacement synchronisé des trois moteurs.
 
-// AXE X
-#define X_STEP  2
-#define X_DIR   5
+// Axe X
+#define X_STEP 2
+#define X_DIR  5
 
-// AXE Y
-#define Y_STEP  3
-#define Y_DIR   6
+// Axe Y
+#define Y_STEP 3
+#define Y_DIR  6
 
-// AXE A
-#define A_STEP  12
-#define A_DIR   13
+// Axe A
+#define A_STEP 12
+#define A_DIR  13
 
+// Activation des drivers
 #define ENABLE 8
+
+// Vitesse de déplacement 
 #define VITESSE 1000
 
-void setup() {
+void setup()
+{
+    pinMode(X_STEP, OUTPUT);
+    pinMode(X_DIR, OUTPUT);
 
-  pinMode(X_STEP, OUTPUT);
-  pinMode(X_DIR, OUTPUT);
+    pinMode(Y_STEP, OUTPUT);
+    pinMode(Y_DIR, OUTPUT);
 
-  pinMode(Y_STEP, OUTPUT);
-  pinMode(Y_DIR, OUTPUT);
+    pinMode(A_STEP, OUTPUT);
+    pinMode(A_DIR, OUTPUT);
 
-  pinMode(A_STEP, OUTPUT);
-  pinMode(A_DIR, OUTPUT);
+    pinMode(ENABLE, OUTPUT);
 
-  pinMode(ENABLE, OUTPUT);
+    // Activation des drivers A4988
+    digitalWrite(ENABLE, LOW);
 
-  // Activation drivers
-  digitalWrite(ENABLE, LOW);
-
-  // Sens de déplacement
-  digitalWrite(X_DIR, HIGH);
-
-  digitalWrite(Y_DIR, HIGH);
-  digitalWrite(A_DIR, HIGH);
+    // Définition du sens de rotation
+    digitalWrite(X_DIR, HIGH);
+    digitalWrite(Y_DIR, HIGH);
+    digitalWrite(A_DIR, HIGH);
 }
 
-void loop() {
+void loop()
+{
+    // Déplacement simultané des trois axes
+    for (int i = 0; i < 2000; i++)
+    {
+        digitalWrite(X_STEP, HIGH);
+        digitalWrite(Y_STEP, HIGH);
+        digitalWrite(A_STEP, HIGH);
 
-  // Déplacement simultané
-  for(int i = 0; i < 2000; i++) {
+        delayMicroseconds(5);
 
-    digitalWrite(X_STEP, HIGH);
-    digitalWrite(Y_STEP, HIGH);
-    digitalWrite(A_STEP, HIGH);
+        digitalWrite(X_STEP, LOW);
+        digitalWrite(Y_STEP, LOW);
+        digitalWrite(A_STEP, LOW);
 
-    delayMicroseconds(5);
+        delayMicroseconds(VITESSE);
+    }
 
-    digitalWrite(X_STEP, LOW);
-    digitalWrite(Y_STEP, LOW);
-    digitalWrite(A_STEP, LOW);
-
-    delayMicroseconds(VITESSE);
-  }
-
-  while(1);
+    // Arrêt du programme
+    while (1);
 }
+
 
 Dans ce programme, les broches de commande **STEP** et **DIR** de chaque axe sont définies conformément au câblage du CNC Shield. Les drivers sont activés grâce à la broche **ENABLE**, configurée à l'état bas (LOW). Le sens de rotation des moteurs est ensuite fixé à l'aide des signaux **DIR**.
 
