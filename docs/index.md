@@ -11,7 +11,7 @@ permalink: /
 
 Bienvenue sur la documentation technique de notre Puzzle Bot, projet réalisé dans le cadre de notre cursus d'ingénierie au MakerSpace d'UniLaSalle Amiens (2025–2026). Ce site a pour but de fournir toutes les informations nécessaires pour comprendre, reproduire et améliorer notre machine.
 
-[Notre projet sur Onshape]https://cad.onshape.com/documents/5e631fda2e1ceae9c0462f93/w/d6b894d752c92886e042732c/e/e8dc96c274546d67ed3770eb?renderMode=0&uiState=6a2d15bd71605c37b024c89c{: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Notre projet sur Onshape](https://cad.onshape.com/documents/5e631fda2e1ceae9c0462f93/w/d6b894d752c92886e042732c/e/e8dc96c274546d67ed3770eb?renderMode=0&uiState=6a2d15bd71605c37b024c89c){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [Notre repo GitHub](https://github.com/Makerspace-Amiens/template-project){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 <iframe height="600" width="100%" src="https://modelembedder.net/embed?did=2860ed3d58f1b518e6857770&wvm=v&wvmid=6280fca954e7770df59e5a2f&eid=0cab16137cd459ee83ebe56e&elementType=ASSEMBLY" frameborder="0"></iframe>
