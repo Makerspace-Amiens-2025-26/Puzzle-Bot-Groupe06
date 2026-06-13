@@ -18,7 +18,7 @@ Le déplacement de notre Puzzle Bot est assuré par trois moteurs pas à pas com
 // Activation des drivers
 #define ENABLE 8
 
-// Vitesse de déplacement 
+// Vitesse de déplacement (µs)
 #define VITESSE 1000
 
 void setup()
@@ -64,7 +64,6 @@ void loop()
     // Arrêt du programme
     while (1);
 }
-
 
 Dans ce programme, les broches de commande **STEP** et **DIR** de chaque axe sont définies conformément au câblage du CNC Shield. Les drivers sont activés grâce à la broche **ENABLE**, configurée à l'état bas (LOW). Le sens de rotation des moteurs est ensuite fixé à l'aide des signaux **DIR**.
 
