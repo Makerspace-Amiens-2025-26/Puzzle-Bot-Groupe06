@@ -75,6 +75,7 @@ La boucle principale génère simultanément 2000 impulsions sur les broches **S
 
 Le système de préhension de notre Puzzle Bot repose sur une pompe à air et une électrovanne pilotées par la carte Arduino Uno. Le programme présenté ci-dessous nous a permis de tester individuellement le fonctionnement de ces deux actionneurs afin de vérifier la génération et la libération de la dépression utilisée pour la saisie des pièces.
 
+<pre>
 #define PUMP  12
 #define SOL   13
 
@@ -102,6 +103,8 @@ void loop() {
   delay(1000);
 
 }
+
+</pre>
 
 Dans ce programme, la pompe à air est connectée à la broche numérique **12** de l'Arduino tandis que l'électrovanne est connectée à la broche numérique **13**. Après l'initialisation des broches en sortie, la boucle principale exécute une séquence de test automatique.
 
