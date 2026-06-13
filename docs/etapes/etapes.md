@@ -3,28 +3,20 @@
 
 Le déplacement de notre Puzzle Bot est assuré par trois moteurs pas à pas commandés par une carte Arduino Uno via un CNC Shield équipé de drivers A4988. Le programme présenté ci-dessous a pour objectif de vérifier le bon fonctionnement des axes X, Y et A en réalisant un déplacement synchronisé des trois moteurs.
 
-// ─────────────────────────────────────
 // AXE X
-// ─────────────────────────────────────
 #define X_STEP  2
 #define X_DIR   5
 
-// ─────────────────────────────────────
 // AXE Y
-// ─────────────────────────────────────
 #define Y_STEP  3
 #define Y_DIR   6
 
-// ─────────────────────────────────────
 // AXE A
-// ─────────────────────────────────────
 #define A_STEP  12
 #define A_DIR   13
 
-// ─────────────────────────────────────
 #define ENABLE 8
 #define VITESSE 1000
-// ─────────────────────────────────────
 
 void setup() {
 
