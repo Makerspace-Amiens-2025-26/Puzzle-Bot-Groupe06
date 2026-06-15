@@ -4,12 +4,6 @@
 
 Notre système électronique du Puzzle Bot s'articule autour d'une **carte Arduino Uno** centrale, qui orchestre l'ensemble des actionneurs de la machine. Elle communique avec un **CNC Shield** empilé directement sur ses broches, lequel reçoit trois **drivers A4988**, un par axe chargés de traduire les signaux de commande en impulsions électriques pour les moteurs pas à pas. L'alimentation de l'ensemble est assurée par une **alimentation secteur**, qui fournit les tensions nécessaires à la fois à la logique de commande et à la puissance des actionneurs.
 
-Pour assurer la communication entre la carte Arduino et les composants du Puzzle Bot, nous avons affecté des pins spécifiques à chaque élément. Le choix des pins a été fait en se référant à l’image suivante :
-
-
-<img width="736" height="735" alt="image" src="https://github.com/user-attachments/assets/38c269d9-6d50-43cf-9409-35bff88f5497" />
-
-
 ### 1. Alimentation du système
 
 L'alimentation secteur fournit deux niveaux de tension :
@@ -58,6 +52,10 @@ L'électrovanne est pilotée depuis une broche numérique de l'Arduino. Elle est
 La pompe, l'électrovanne et la ventouse sont interconnectées par le tube souple, le raccord en T et le raccord droit. Le raccord en T distribue le flux d'air entre la pompe (qui génère la dépression), l'électrovanne (qui contrôle le relâchement) et la ventouse (qui assure le contact avec la pièce).
 
 <img width="672" height="454" alt="image" src="https://github.com/user-attachments/assets/1528b2b5-9858-445d-9faf-0aa19f41f081" />
+
+Pour assurer la communication entre la carte Arduino et les composants du Puzzle Bot, nous avons affecté des pins spécifiques à chaque élément. Le choix des pins a été fait en se référant à l’image suivante :
+
+<img width="736" height="735" alt="image" src="https://github.com/user-attachments/assets/38c269d9-6d50-43cf-9409-35bff88f5497" />
 
 
 
