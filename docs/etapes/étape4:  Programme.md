@@ -1,4 +1,4 @@
-# Etape 3: PROGRAMMATION & VISION
+# Etape 3: PROGRAMMATION 
 ### Programme de contrôle moteurs pas à pas
 
 Le déplacement de notre Puzzle Bot est assuré par trois moteurs pas à pas commandés par une carte Arduino Uno via un CNC Shield équipé de drivers A4988. Le programme présenté ci-dessous a pour objectif de vérifier le bon fonctionnement des axes X, Y et A en réalisant un déplacement synchronisé des trois moteurs.
