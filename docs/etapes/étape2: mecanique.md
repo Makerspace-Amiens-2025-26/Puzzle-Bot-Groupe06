@@ -1,4 +1,4 @@
-# Etape 2: mecanique.md
+# Etape 2: montage électronique
 
 ### Vue d'ensemble du système
 
