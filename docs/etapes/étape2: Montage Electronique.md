@@ -53,6 +53,8 @@ La pompe, l'électrovanne et la ventouse sont interconnectées par le tube soupl
 
 <img width="672" height="454" alt="image" src="https://github.com/user-attachments/assets/1528b2b5-9858-445d-9faf-0aa19f41f081" />
 
+
+
 Pour assurer la communication entre la carte Arduino et les composants du Puzzle Bot, nous avons affecté des pins spécifiques à chaque élément. Le choix des pins a été fait en se référant à l’image suivante :
 
 <img width="736" height="735" alt="image" src="https://github.com/user-attachments/assets/38c269d9-6d50-43cf-9409-35bff88f5497" />
