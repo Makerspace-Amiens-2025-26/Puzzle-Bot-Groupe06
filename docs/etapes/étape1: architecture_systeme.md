@@ -32,11 +32,20 @@ Base large facilitant la fixation sur les profilés.
 
 ---
 
-### Choix de conception et justifications
-
-**Profilés aluminium 2020** : Le recours aux profilés aluminium à fente en V de section 20×20 mm a été privilégié pour leur rigidité, leur légèreté et leur modularité. Leur système de fixation par écrous à glissière permet d'ajuster et de repositionner les éléments mécaniques sans usinage supplémentaire, ce qui facilite les itérations lors des phases de prototypage.
-
-**Pièces imprimées en 3D** — Les supports de roulements, les chariots, les renforts angulaires et les supports moteurs ont ét& entièrement réalisés par impression 3D. Ce choix nous a permis d'adapter précisément la géométrie de chaque pièce aux contraintes fonctionnelles du robot, tout en conservant une grande liberté de modification entre deux versions.
+2. Chariot de préhension
+   Cette pièce constitue le cœur du système de manipulation.
+   
+   Fonctions :
+        -Supporter la ventouse.
+        -Guider le mouvement vertical.
+        -Recevoir les différents capteurs et actionneurs.
+   
+Particularités :
+        -Forme compacte pour limiter le poids embarqué.
+        -Intégration des logements de fixation.
+        -Réduction de l'encombrement afin d'augmenter la précision.
+        
+![image](https://i.postimg.cc/HkPRRP3c/Capture-d-ecran-2026-06-15-a-14-49-54.png)
 
 ### Démarche de prototypage et d'itération
 
