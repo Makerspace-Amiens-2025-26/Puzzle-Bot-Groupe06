@@ -4,6 +4,11 @@
 
 Notre système électronique du Puzzle Bot s'articule autour d'une **carte Arduino Uno** centrale, qui orchestre l'ensemble des actionneurs de la machine. Elle communique avec un **CNC Shield** empilé directement sur ses broches, lequel reçoit trois **drivers A4988**, un par axe chargés de traduire les signaux de commande en impulsions électriques pour les moteurs pas à pas. L'alimentation de l'ensemble est assurée par une **alimentation secteur**, qui fournit les tensions nécessaires à la fois à la logique de commande et à la puissance des actionneurs.
 
+Pour faire communiquer la carte Arduino avec les composants du Puzzle bot, nous les avons attribués des PINS. Pour le choix de ces dernières nous nous sommes référés à l’image suivante :
+
+<img width="736" height="735" alt="image" src="https://github.com/user-attachments/assets/38c269d9-6d50-43cf-9409-35bff88f5497" />
+
+
 ### 1. Alimentation du système
 
 L'alimentation secteur fournit deux niveaux de tension :
