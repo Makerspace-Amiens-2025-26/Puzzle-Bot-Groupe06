@@ -2,19 +2,7 @@
 
 ### Vue d'ensemble de la structure
 La conception mécanique de notre Puzzle Bot a été intégralement réalisée sous **Onshape**, un logiciel de CAO collaboratif en ligne permettant à l'ensemble de l'équipe de travailler simultanément sur le même document. Notre machine repose sur une architecture cartésienne à trois axes **(X, Y, A)**. La structure repose sur deux longerons horizontaux en **profilés aluminium 20X20** disposés parallèlement, qui constituent le châssis principal de la machine et définissent la course de l'axe Y. Quatre **pieds support** viennent ancrer et surélever l'ensemble aux quatre coins, assurant la stabilité de la machine sur son plan de travail. Entre les deux longerons est tendu le **plateau de travail en bois**, qui constitue la surface sur laquelle les pièces du puzzle sont déposées et manipulées.
-<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.3.1/model-viewer.min.js"></script>
-
-<model-viewer src="PuzzleBot Copy 1.gltf" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1">
-    <div class="progress-bar hide" slot="progress-bar">
-        <div class="update-bar"></div>
-    </div>
-    <button slot="ar-button" id="ar-button">
-        View in your space
-    </button>
-    <div id="ar-prompt">
-        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
-    </div>
-</model-viewer>
+![image alt](https://github.com/Makerspace-Amiens-2025-26/Puzzle-Bot-Groupe06/blob/1f19c1e5da65883594b6b291a9224216c234daf9/docs/etapes/PuzzleBot%20Copy%201.gltf)
 
 
 
