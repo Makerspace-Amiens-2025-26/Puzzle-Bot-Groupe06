@@ -1,22 +1,34 @@
 ### Etape 1: architecture_systeme.md (Onshape) 
 
 ### Vue d'ensemble de la structure
-La conception mécanique de notre Puzzle Bot a été intégralement réalisée sous **Onshape**, un logiciel de CAO collaboratif en ligne permettant à l'ensemble de l'équipe de travailler simultanément sur le même document. Notre machine repose sur une architecture cartésienne à trois axes **(X, Y, A)**. La structure repose sur deux longerons horizontaux en **profilés aluminium 20X20** disposés parallèlement, qui constituent le châssis principal de la machine et définissent la course de l'axe Y. Quatre **pieds support** viennent ancrer et surélever l'ensemble aux quatre coins, assurant la stabilité de la machine sur son plan de travail. Entre les deux longerons est tendu le **plateau de travail en bois**, qui constitue la surface sur laquelle les pièces du puzzle sont déposées et manipulées.
+
+L'ensemble du Puzzle Bot est constitué de plusieurs pièces conçues sous Onshape et fabriquées principalement par impression 3D. Chaque composant possède une fonction spécifique permettant d'assurer la rigidité de la structure, le guidage des axes ou le maintien des différents actionneurs.
+Vue d'ensemble de l'assemblage
+Cette vue représente l'intégralité du Puzzle Bot assemblé. On distingue :
+Le châssis principal en profilés aluminium 20×20 mm.
+Le plateau de travail perforé permettant la fixation des différents éléments.
+Le portique supportant l'axe transversal.
+Le système de préhension chargé de manipuler les pièces du puzzle.
+Les différents supports moteurs et renforts mécaniques.
+L'objectif de cette architecture est de permettre le déplacement précis de la tête de préhension sur toute la surface.
 ![image](https://i.postimg.cc/FzKfBRTL/Capture-d-ecran-2026-06-15-a-14-19-41.png)
 
 
 
+1. Support moteur principal
+   
+Cette pièce sert à fixer les moteurs pas à pas sur la structure.
 
-### Architecture des axes
+Fonctions : Maintenir fermement le moteur.
+Assurer l'alignement avec les poulies et les courroies.
+Transmettre correctement les efforts mécaniques.
 
-**Axe Y — déplacement longitudinal**
-Le chariot principal se déplace le long des deux longerons en profilés 20X20 grâce à un système de courroie et de roulements. Deux **moteurs pas à pas** situés de part et d'autre de la structure entraînent le déplacement synchronisé du portique transversal le long de cet axe.
+Choix de conception :
+Forme triangulaire pour améliorer la rigidité.
+Perçages normalisés pour moteurs NEMA.
+Base large facilitant la fixation sur les profilés.
 
-**Axe A — déplacement transversal**
-Le portique transversal, coulisse perpendiculairement aux longerons. Il est entraîné par un troisième moteur pas à pas et porte le chariot de l'axe X. Sa conception intègre des renforts triangulaires imprimés en 3D de chaque côté, qui assurent la rigidité angulaire de l'ensemble.
-
-**Axe X — déplacement vertical**
-La tête de préhension est montée sur l'axe X, dont le mécanisme de translation verticale est logé dans le bloc central bleu en haut du portique. Un moteur pas à pas dédié pilote la descente et la remontée de la ventouse, permettant de saisir une pièce en surface et de la soulever pour la déplacer.
+![image](https://i.postimg.cc/g24BRtfn/Capture-d-ecran-2026-06-15-a-14-40-13.png)
 
 ---
 
