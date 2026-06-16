@@ -241,9 +241,11 @@ Cette pièce assure la fixation et le maintien du profilé aluminium reliant le 
 - Géométrie renforcée limitant les déformations.
 - Fabrication par impression 3D permettant une intégration précise dans l'assemblage.
 
+---
+
 #### Intérêt pour le projet
 
 Cette pièce participe à la stabilité mécanique du bloc central. Elle permet de maintenir correctement le profilé aluminium tout en limitant les vibrations et les déformations susceptibles d'affecter la précision des déplacements du Puzzle Bot.
 
-
+---
 
