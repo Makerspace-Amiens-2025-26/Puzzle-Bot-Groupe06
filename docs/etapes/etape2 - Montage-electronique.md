@@ -1,4 +1,4 @@
-# Etape 2: montage électronique
+# Etape 2: Montage-electronique
 
 ### Vue d'ensemble du système
 
