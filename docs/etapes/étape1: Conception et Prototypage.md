@@ -1,4 +1,4 @@
-### Etape 1: architecture_systeme.md (Onshape) 
+ ### Etape 1: architecture_systeme.md (Onshape) 
 
 ### Vue d'ensemble de la structure
 
@@ -15,7 +15,7 @@ L'objectif de cette architecture est de permettre le déplacement précis de la 
 
 
 
-1. Support moteur principal
+###1. Support moteur principal
    
 Cette pièce sert à fixer les moteurs pas à pas sur la structure.
 
@@ -32,7 +32,7 @@ Base large facilitant la fixation sur les profilés.
 
 ---
 
-2. Chariot de préhension
+###2. Chariot de préhension
    
    Cette pièce constitue le cœur du système de manipulation.
    
@@ -48,7 +48,7 @@ Base large facilitant la fixation sur les profilés.
         
 ![image](https://i.postimg.cc/HkPRRP3c/Capture-d-ecran-2026-06-15-a-14-49-54.png)
 
-3. Montant vertical du portique
+###3. Montant vertical du portique
    
 Le montant vertical assure la liaison entre le châssis et le rail supérieur.
    Fonctions : 
@@ -59,7 +59,7 @@ Le montant vertical assure la liaison entre le châssis et le rail supérieur.
             -Grande surface latérale pour améliorer la rigidité.
             -Fixations multiples afin de répartir les efforts.
 
-4. Support de guidage supérieur
+###4. Support de guidage supérieur
    
 Cette pièce accueille un élément de guidage cylindrique.
     Fonctions :
@@ -67,7 +67,7 @@ Cette pièce accueille un élément de guidage cylindrique.
             -Garantir l'alignement mécanique.
             -Réduire les jeux lors des déplacements.
 
-5. Platine de fixation des roulements
+###5. Platine de fixation des roulements
    
 Cette platine est utilisée pour fixer les roulements participant au guidage des axes.
     Fonctions :
