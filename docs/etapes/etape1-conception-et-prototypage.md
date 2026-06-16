@@ -91,7 +91,7 @@ Cette pièce relie la tête de préhension au système de guidage vertical.
 
 Cette conception permet de saisir précisément les pièces du puzzle sans perturber leur position. La légèreté de l'ensemble améliore également la rapidité et la précision des déplacements du robot.
 
-
+---
 
 ### 4.Platine de fixation des roulements
 
@@ -110,7 +110,7 @@ Cette pièce permet l'installation des roulements utilisés dans les systèmes d
 - Quatre points de fixation.
 - Maintenance et remplacement facilités.
 
-
+---
 
 ### 5. Support inférieur du portique
 
@@ -128,3 +128,4 @@ Cette pièce assure la liaison entre le montant vertical et le châssis du robot
 - Renforts intégrés limitant les déformations.
 - Fixation robuste sur les profilés aluminium.
 
+---
