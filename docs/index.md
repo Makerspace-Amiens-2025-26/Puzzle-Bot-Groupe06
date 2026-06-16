@@ -25,8 +25,8 @@ Ce projet s'adresse à tout ingénieur ou maker souhaitant concevoir une machine
 
 ## L'équipe — Groupe 06
 - ## Conception et Prototypage: Yacine Benhedia et Anass Zahti
-- ## Programmation et montage électronique: Alladaye Daril et Georges-Henri Nechie Gadom
-- ## Vision par Ordinateur: Nicolas Huguenot et Abdelhamid Tissir
+- ## Programmation et montage électronique:  Georges-Henri Nechie Gadom
+- ## Vision par Ordinateur: Nicolas Huguenot 
 
 Notre documentation est organisée en trois grandes parties correspondant aux phases de développement de notre projet :
 
