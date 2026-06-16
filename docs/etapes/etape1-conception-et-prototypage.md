@@ -58,23 +58,33 @@ Cette pièce constitue le cœur du système de manipulation.
 
 ---
 
-### 3. Montant vertical du portique
 
-Le montant vertical assure la liaison entre le châssis et le rail supérieur.
+### 3. Ensemble support de préhension
+
+Cet ensemble est constitué d'un bras de liaison vertical et d'un support cylindrique permettant le montage de la ventouse. Il constitue la partie terminale du système de préhension du Puzzle Bot.
+
+L'ensemble assure le positionnement précis de la ventouse au-dessus des pièces du puzzle et transmet les mouvements verticaux commandés par le moteur de l'axe Z.
 
 #### Fonctions
 
-- Supporter les charges du portique.
-- Garantir la perpendicularité de la structure.
-- Limiter les vibrations pendant les déplacements.
+- Supporter la ventouse.
+- Assurer la liaison entre le mécanisme de translation verticale et la tête de préhension.
+- Garantir le bon alignement de la ventouse.
+- Transmettre les efforts lors de la prise et du déplacement des pièces.
+- Maintenir la stabilité de la tête de préhension pendant les déplacements.
 
 #### Choix de conception
 
-- Grande surface latérale pour améliorer la rigidité.
-- Fixations multiples afin de répartir les efforts.
+- Bras vertical allongé permettant de déporter la ventouse sous le mécanisme.
+- Support cylindrique facilitant l'insertion et le maintien de la ventouse.
+- Conception légère afin de réduire l'inertie des pièces mobiles.
+- Fabrication par impression 3D permettant des modifications rapides lors du prototypage.
 
----
+  ![image](https://i.postimg.cc/wTRs1p6j/image.png)
 
+#### Intérêt pour le projet
+
+Cette conception permet de saisir précisément les pièces du puzzle sans perturber leur position. La légèreté de l'ensemble améliore également la rapidité et la précision des déplacements du robot.
 ### 4. Support de guidage supérieur
 
 Cette pièce accueille un élément de guidage cylindrique.
