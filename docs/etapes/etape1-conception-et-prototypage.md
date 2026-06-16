@@ -64,7 +64,7 @@ Cette pièce constitue le cœur du système de manipulation.
 ---
 
 
-### 3. 3. Bras support de ventouse
+### 3. Bras support de ventouse
 
 ![image](https://i.postimg.cc/wTRs1p6j/image.png) ![image](https://i.postimg.cc/DwbRZ5pr/Capture-d-ecran-2026-06-16-a-22-17-40.png)
 
@@ -80,31 +80,51 @@ Cette pièce relie la tête de préhension au système de guidage vertical.
 - Masse réduite pour améliorer la rapidité des déplacements.
 - Fixations intégrées simplifiant l'assemblage.
 
+- Forme cylindrique adaptée au montage de la ventouse.
+- Fixation simple par vis.
+- Faible masse afin de limiter l’inertie du système mobile.
+- Fabrication par impression 3D facilitant les modifications.
+
 
 
 #### Intérêt pour le projet
 
 Cette conception permet de saisir précisément les pièces du puzzle sans perturber leur position. La légèreté de l'ensemble améliore également la rapidité et la précision des déplacements du robot.
 
-### 4. Support de guidage supérieur
 
-Cette pièce accueille un élément de guidage cylindrique.
 
-#### Fonctions
+### 4.Platine de fixation des roulements
 
-- Maintenir les axes de guidage.
-- Garantir l'alignement mécanique.
-- Réduire les jeux lors des déplacements.
+![image](https://i.postimg.cc/hGLhRL9L/Capture-d-ecran-2026-06-16-a-23-39-49.png)
 
----
+Cette pièce permet l'installation des roulements utilisés dans les systèmes de guidage et de rotation.
 
-### 5. Platine de fixation des roulements
-
-Cette platine est utilisée pour fixer les roulements participant au guidage des axes.
-
-#### Fonctions
-
+### Fonctions
 - Maintenir les roulements.
-- Répartir les charges mécaniques.
-- Faciliter les opérations de maintenance.
+- Garantir le centrage des axes.
+- Réduire les frottements.
+- Améliorer la précision des déplacements.
+  
+### Choix de conception
+- Logement central adapté au roulement.
+- Quatre points de fixation.
+- Maintenance et remplacement facilités.
+
+
+
+### 5. Support inférieur du portique
+
+![image](https://i.postimg.cc/44qGwKcB/Capture-d-ecran-2026-06-16-a-23-42-16.png)
+
+Cette pièce assure la liaison entre le montant vertical et le châssis du robot.
+
+### Fonctions
+- Maintenir le montant vertical.
+- Répartir les charges sur le châssis.
+- Garantir la stabilité du portique.
+
+### Choix de conception
+- Base élargie améliorant la stabilité.
+- Renforts intégrés limitant les déformations.
+- Fixation robuste sur les profilés aluminium.
 
