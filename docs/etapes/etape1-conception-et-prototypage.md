@@ -2,6 +2,8 @@
 
 ### Vue d'ensemble de la structure
 
+![Vue d'ensemble](https://i.postimg.cc/FzKfBRTL/Capture-d-ecran-2026-06-15-a-14-19-41.png)
+
 L'ensemble du Puzzle Bot est constitué de plusieurs pièces conçues sous Onshape et fabriquées principalement par impression 3D. Chaque composant possède une fonction spécifique permettant d'assurer la rigidité de la structure, le guidage des axes ou le maintien des différents actionneurs.
 
 Cette vue représente l'intégralité du Puzzle Bot assemblé. On distingue :
@@ -14,11 +16,12 @@ Cette vue représente l'intégralité du Puzzle Bot assemblé. On distingue :
 
 L'objectif de cette architecture est de permettre le déplacement précis de la tête de préhension sur toute la surface.
 
-![Vue d'ensemble](https://i.postimg.cc/FzKfBRTL/Capture-d-ecran-2026-06-15-a-14-19-41.png)
+
 
 ---
 
 ### 1. Support moteur principal
+![Support moteur principal](https://i.postimg.cc/g24BRtfn/Capture-d-ecran-2026-06-15-a-14-40-13.png)
 
 Cette pièce sert à fixer les moteurs pas à pas sur la structure.
 
@@ -34,12 +37,13 @@ Cette pièce sert à fixer les moteurs pas à pas sur la structure.
 - Perçages normalisés pour moteurs NEMA.
 - Base large facilitant la fixation sur les profilés.
 
-![Support moteur principal](https://i.postimg.cc/g24BRtfn/Capture-d-ecran-2026-06-15-a-14-40-13.png)
+
 
 ---
 
 ### 2. Chariot de préhension
 
+![Chariot de préhension](https://i.postimg.cc/HkPRRP3c/Capture-d-ecran-2026-06-15-a-14-49-54.png)
 Cette pièce constitue le cœur du système de manipulation.
 
 #### Fonctions
@@ -54,7 +58,7 @@ Cette pièce constitue le cœur du système de manipulation.
 - Intégration des logements de fixation.
 - Réduction de l'encombrement afin d'augmenter la précision.
 
-![Chariot de préhension](https://i.postimg.cc/HkPRRP3c/Capture-d-ecran-2026-06-15-a-14-49-54.png)
+
 
 ---
 
