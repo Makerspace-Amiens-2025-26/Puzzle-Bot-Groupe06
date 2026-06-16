@@ -25,12 +25,12 @@ L'objectif de cette architecture est de permettre le déplacement précis de la 
 
 Cette pièce sert à fixer les moteurs pas à pas sur la structure.
 
-### Fonctions
+#### Fonctions
 - Maintenir fermement le moteur.
 - Assurer l'alignement avec les poulies et les courroies.
 - Transmettre correctement les efforts mécaniques.
 
-### Choix de conception
+#### Choix de conception
 - Forme triangulaire pour améliorer la rigidité.
 - Perçages normalisés pour moteurs NEMA.
 - Base large facilitant la fixation sur les profilés.
@@ -43,12 +43,12 @@ Cette pièce sert à fixer les moteurs pas à pas sur la structure.
 
 Cette pièce constitue le cœur du système de manipulation.
 
-### Fonctions
+#### Fonctions
 - Supporter la ventouse.
 - Guider le mouvement vertical.
 - Recevoir les différents capteurs et actionneurs.
 
-### Particularités
+#### Particularités
 - Forme compacte pour limiter le poids embarqué.
 - Intégration des logements de fixation.
 - Réduction de l'encombrement afin d'augmenter la précision.
@@ -61,12 +61,12 @@ Cette pièce constitue le cœur du système de manipulation.
 
 Cette pièce relie la tête de préhension au système de guidage vertical.
 
-### Fonctions 
+#### Fonctions 
 - Supporter la ventouse.
 - Positionner la tête de préhension.
 - Transmettre les mouvements verticaux.
 
-### Choix de conception
+#### Choix de conception
 - Géométrie allongée limitant l'encombrement.
 - Masse réduite pour améliorer la rapidité des déplacements.
 - Fixations intégrées simplifiant l'assemblage.
@@ -90,13 +90,13 @@ Cette conception permet de saisir précisément les pièces du puzzle sans pertu
 
 Cette pièce permet l'installation des roulements utilisés dans les systèmes de guidage et de rotation.
 
-### Fonctions
+#### Fonctions
 - Maintenir les roulements.
 - Garantir le centrage des axes.
 - Réduire les frottements.
 - Améliorer la précision des déplacements.
   
-### Choix de conception
+#### Choix de conception
 - Logement central adapté au roulement.
 - Quatre points de fixation.
 - Maintenance et remplacement facilités.
@@ -109,12 +109,12 @@ Cette pièce permet l'installation des roulements utilisés dans les systèmes d
 
 Cette pièce assure la liaison entre le montant vertical et le châssis du robot.
 
-### Fonctions
+#### Fonctions
 - Maintenir le montant vertical.
 - Répartir les charges sur le châssis.
 - Garantir la stabilité du portique.
 
-### Choix de conception
+#### Choix de conception
 - Base élargie améliorant la stabilité.
 - Renforts intégrés limitant les déformations.
 - Fixation robuste sur les profilés aluminium.
@@ -127,13 +127,13 @@ Cette pièce permet de maintenir et de fixer la courroie de transmission utilis�
 
 ![image](https://i.postimg.cc/CLcQJXX9/Capture-d-ecran-2026-06-16-a-23-51-00.png)
 
-### Fonctions
+#### Fonctions
 - Maintenir la courroie en position.
 - Assurer la transmission des efforts de déplacement.
 - Empêcher le glissement de la courroie.
 - Garantir la précision des mouvements des axes.
 
-### Choix de conception
+#### Choix de conception
 - Forme adaptée au serrage de la courroie.
 - Géométrie compacte limitant l'encombrement.
 - Fixation simple facilitant le montage et le démontage.
@@ -159,13 +159,13 @@ L'objectif principal de ce système est de garantir une position stable et préc
 
 Cette pièce constitue la base du système de vision. Elle assure la liaison entre le châssis principal du robot et le profilé aluminium vertical supportant la caméra.
 
-### Fonctions
+#### Fonctions
 - Maintenir le profilé aluminium vertical.
 - Supporter le poids du système de vision.
 - Répartir les efforts mécaniques sur le châssis.
 - Garantir la stabilité du mât.
 
-### Choix de conception
+#### Choix de conception
 - Logement carré adapté au profilé aluminium 20×20 mm.
 - Base large augmentant la rigidité.
 - Renforts intégrés limitant les déformations.
@@ -179,13 +179,13 @@ Cette pièce constitue la base du système de vision. Elle assure la liaison ent
 
 Cette pièce est positionnée à l'extrémité supérieure du portique. Elle permet de fixer et de guider le profilé aluminium supportant la caméra.
 
-### Fonctions
+#### Fonctions
 - Maintenir l'alignement du profilé vertical.
 - Renforcer la rigidité du système de vision.
 - Réduire les vibrations du mât.
 - Garantir la perpendicularité de l'ensemble.
 
-### Choix de conception
+#### Choix de conception
 - Forme enveloppante assurant un bon maintien.
 - Multiples points de fixation.
 - Géométrie optimisée pour l'impression 3D.
@@ -199,13 +199,13 @@ Cette pièce est positionnée à l'extrémité supérieure du portique. Elle per
 
 Cette pièce est située à l'extrémité du mât et reçoit directement la caméra. Elle permet de positionner le capteur de manière stable au-dessus du plateau de travail.
 
-### Fonctions
+#### Fonctions
 - Supporter la caméra.
 - Garantir son orientation correcte.
 - Assurer une fixation rigide.
 - Faciliter le réglage et le remplacement du système de vision.
 
-### Choix de conception
+#### Choix de conception
 - Interface adaptée à la caméra utilisée.
 - Faible masse afin de limiter les contraintes sur le mât.
 - Multiples points de fixation.
