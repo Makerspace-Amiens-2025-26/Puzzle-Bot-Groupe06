@@ -219,7 +219,31 @@ Cette pièce est située à l'extrémité du mât et reçoit directement la cam�
 
 Le système de support de caméra joue un rôle fondamental dans le fonctionnement du Puzzle Bot. En positionnant la caméra à environ 40 cm au-dessus du plateau, il permet d'obtenir une vue complète de la zone de travail. Les images acquises sont ensuite exploitées par les algorithmes de vision artificielle pour détecter les pièces du puzzle et les marqueurs ArUco. La stabilité de ce système est essentielle pour garantir la précision des mesures et la fiabilité de l'assemblage automatique du puzzle.
 
+---
 
+### 8.Support de maintien du profilé du bloc central
+
+![image](https://i.postimg.cc/NGRh7Q6Q/Capture-d-ecran-2026-06-17-a-00-20-05.png)
+
+Cette pièce assure la fixation et le maintien du profilé aluminium reliant le bloc central aux autres éléments de la structure. Elle garantit la rigidité de l'ensemble et contribue à la stabilité du système de préhension.
+
+#### Fonctions
+
+- Maintenir le profilé aluminium du bloc central.
+- Garantir l'alignement de la structure.
+- Répartir les efforts mécaniques transmis par les déplacements.
+- Renforcer la rigidité de l'ensemble mobile.
+
+#### Choix de conception
+
+- Logement carré adapté au profilé aluminium 20×20 mm.
+- Platine de fixation comportant plusieurs points d'ancrage.
+- Géométrie renforcée limitant les déformations.
+- Fabrication par impression 3D permettant une intégration précise dans l'assemblage.
+
+#### Intérêt pour le projet
+
+Cette pièce participe à la stabilité mécanique du bloc central. Elle permet de maintenir correctement le profilé aluminium tout en limitant les vibrations et les déformations susceptibles d'affecter la précision des déplacements du Puzzle Bot.
 
 
 
