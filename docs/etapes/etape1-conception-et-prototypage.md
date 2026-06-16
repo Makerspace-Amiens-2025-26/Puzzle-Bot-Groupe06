@@ -25,12 +25,12 @@ L'objectif de cette architecture est de permettre le déplacement précis de la 
 
 Cette pièce sert à fixer les moteurs pas à pas sur la structure.
 
-#### Fonctions
+### Fonctions
 - Maintenir fermement le moteur.
 - Assurer l'alignement avec les poulies et les courroies.
 - Transmettre correctement les efforts mécaniques.
 
-#### Choix de conception
+### Choix de conception
 - Forme triangulaire pour améliorer la rigidité.
 - Perçages normalisés pour moteurs NEMA.
 - Base large facilitant la fixation sur les profilés.
@@ -159,13 +159,13 @@ L'objectif principal de ce système est de garantir une position stable et préc
 
 Cette pièce constitue la base du système de vision. Elle assure la liaison entre le châssis principal du robot et le profilé aluminium vertical supportant la caméra.
 
-#### Fonctions
+### Fonctions
 - Maintenir le profilé aluminium vertical.
 - Supporter le poids du système de vision.
 - Répartir les efforts mécaniques sur le châssis.
 - Garantir la stabilité du mât.
 
-#### Choix de conception
+### Choix de conception
 - Logement carré adapté au profilé aluminium 20×20 mm.
 - Base large augmentant la rigidité.
 - Renforts intégrés limitant les déformations.
@@ -179,13 +179,13 @@ Cette pièce constitue la base du système de vision. Elle assure la liaison ent
 
 Cette pièce est positionnée à l'extrémité supérieure du portique. Elle permet de fixer et de guider le profilé aluminium supportant la caméra.
 
-#### Fonctions
+### Fonctions
 - Maintenir l'alignement du profilé vertical.
 - Renforcer la rigidité du système de vision.
 - Réduire les vibrations du mât.
 - Garantir la perpendicularité de l'ensemble.
 
-#### Choix de conception
+### Choix de conception
 - Forme enveloppante assurant un bon maintien.
 - Multiples points de fixation.
 - Géométrie optimisée pour l'impression 3D.
@@ -199,13 +199,13 @@ Cette pièce est positionnée à l'extrémité supérieure du portique. Elle per
 
 Cette pièce est située à l'extrémité du mât et reçoit directement la caméra. Elle permet de positionner le capteur de manière stable au-dessus du plateau de travail.
 
-#### Fonctions
+### Fonctions
 - Supporter la caméra.
 - Garantir son orientation correcte.
 - Assurer une fixation rigide.
 - Faciliter le réglage et le remplacement du système de vision.
 
-#### Choix de conception
+### Choix de conception
 - Interface adaptée à la caméra utilisée.
 - Faible masse afin de limiter les contraintes sur le mât.
 - Multiples points de fixation.
