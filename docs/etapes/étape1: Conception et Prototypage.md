@@ -19,7 +19,7 @@ L'objectif de cette architecture est de permettre le déplacement précis de la 
    
 Cette pièce sert à fixer les moteurs pas à pas sur la structure.
 
-Fonctions : Maintenir fermement le moteur.
+#### Fonctions : Maintenir fermement le moteur.
 Assurer l'alignement avec les poulies et les courroies.
 Transmettre correctement les efforts mécaniques.
 
@@ -36,12 +36,12 @@ Base large facilitant la fixation sur les profilés.
    
    Cette pièce constitue le cœur du système de manipulation.
    
-   Fonctions :
+   #### Fonctions :
         -Supporter la ventouse.
         -Guider le mouvement vertical.
         -Recevoir les différents capteurs et actionneurs.
    
-   Particularités :
+   #### Particularités :
         -Forme compacte pour limiter le poids embarqué.
         -Intégration des logements de fixation.
         -Réduction de l'encombrement afin d'augmenter la précision.
@@ -51,18 +51,18 @@ Base large facilitant la fixation sur les profilés.
 ### 3. Montant vertical du portique
    
 Le montant vertical assure la liaison entre le châssis et le rail supérieur.
-   Fonctions : 
+   #### Fonctions : 
             -Supporter les charges du portique.
             -Garantir la perpendicularité de la structure.
             -Limiter les vibrations pendant les déplacements.
-   Choix de conception :
+   ##### Choix de conception :
             -Grande surface latérale pour améliorer la rigidité.
             -Fixations multiples afin de répartir les efforts.
 
 ### 4. Support de guidage supérieur
    
 Cette pièce accueille un élément de guidage cylindrique.
-    Fonctions :
+   #### Fonctions :
             -Maintenir les axes de guidage.
             -Garantir l'alignement mécanique.
             -Réduire les jeux lors des déplacements.
@@ -70,7 +70,7 @@ Cette pièce accueille un élément de guidage cylindrique.
 ### 5. Platine de fixation des roulements
    
 Cette platine est utilisée pour fixer les roulements participant au guidage des axes.
-    Fonctions :
+   #### Fonctions :
             -Maintenir les roulements.
             -Répartir les charges mécaniques.
             -Faciliter les opérations de maintenance.
