@@ -26,7 +26,7 @@ Ce projet s'adresse à tout ingénieur ou maker souhaitant concevoir une machine
 ## L'équipe — Groupe 06
 - ## Architecture_systeme: Yacine Benhedia et Anass Zahti
 - ## montage-electronique:  Georges-Henri Nechie Gadom
-- ## Vision par Ordinateur: Nicolas Huguenot 
+- ## Détection des tags Aruco: Nicolas Huguenot 
 
 Notre documentation est organisée en trois grandes parties correspondant aux phases de développement de notre projet :
 
