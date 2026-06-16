@@ -24,7 +24,7 @@ Le Puzzle Bot est une machine autonome capable d'assembler un puzzle à pièces 
 Ce projet s'adresse à tout ingénieur ou maker souhaitant concevoir une machine automatisée combinant mécanique, électronique, logiciel embarqué et vision artificielle. Notre documentation a été rédigée pour être suffisamment claire et détaillée afin qu'une équipe tierce puisse reproduire ou améliorer le système à partir des sources fournies.
 
 ## L'équipe — Groupe 06
-- ## Architecture-systeme: Yacine Benhedia et Anass Zahti
+- ## Architecture_systeme: Yacine Benhedia et Anass Zahti
 - ## Montage-electronique:  Georges-Henri Nechie Gadom
 - ## Détection des tags Aruco: Nicolas Huguenot 
 
