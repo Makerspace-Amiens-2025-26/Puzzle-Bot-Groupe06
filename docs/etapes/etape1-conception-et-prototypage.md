@@ -44,6 +44,7 @@ Cette pièce sert à fixer les moteurs pas à pas sur la structure.
 ### 2. Chariot de préhension
 
 ![Chariot de préhension](https://i.postimg.cc/HkPRRP3c/Capture-d-ecran-2026-06-15-a-14-49-54.png)
+
 Cette pièce constitue le cœur du système de manipulation.
 
 #### Fonctions
