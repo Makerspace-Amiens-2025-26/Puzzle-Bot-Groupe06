@@ -64,32 +64,28 @@ Cette pièce constitue le cœur du système de manipulation.
 ---
 
 
-### 3. Ensemble support de préhension
+### 3. 3. Bras support de ventouse
 
-Cet ensemble est constitué d'un bras de liaison vertical et d'un support cylindrique permettant le montage de la ventouse. Il constitue la partie terminale du système de préhension du Puzzle Bot.
+![image](https://i.postimg.cc/wTRs1p6j/image.png) ![image](https://i.postimg.cc/DwbRZ5pr/Capture-d-ecran-2026-06-16-a-22-17-40.png)
 
-L'ensemble assure le positionnement précis de la ventouse au-dessus des pièces du puzzle et transmet les mouvements verticaux commandés par le moteur de l'axe Z.
+Cette pièce relie la tête de préhension au système de guidage vertical.
 
-#### Fonctions
-
+### Fonctions 
 - Supporter la ventouse.
-- Assurer la liaison entre le mécanisme de translation verticale et la tête de préhension.
-- Garantir le bon alignement de la ventouse.
-- Transmettre les efforts lors de la prise et du déplacement des pièces.
-- Maintenir la stabilité de la tête de préhension pendant les déplacements.
+- Positionner la tête de préhension.
+- Transmettre les mouvements verticaux.
 
-#### Choix de conception
+### Choix de conception
+- Géométrie allongée limitant l'encombrement.
+- Masse réduite pour améliorer la rapidité des déplacements.
+- Fixations intégrées simplifiant l'assemblage.
 
-- Bras vertical allongé permettant de déporter la ventouse sous le mécanisme.
-- Support cylindrique facilitant l'insertion et le maintien de la ventouse.
-- Conception légère afin de réduire l'inertie des pièces mobiles.
-- Fabrication par impression 3D permettant des modifications rapides lors du prototypage.
 
-  ![image](https://i.postimg.cc/wTRs1p6j/image.png) ![image](https://i.postimg.cc/DwbRZ5pr/Capture-d-ecran-2026-06-16-a-22-17-40.png)
 
 #### Intérêt pour le projet
 
 Cette conception permet de saisir précisément les pièces du puzzle sans perturber leur position. La légèreté de l'ensemble améliore également la rapidité et la précision des déplacements du robot.
+
 ### 4. Support de guidage supérieur
 
 Cette pièce accueille un élément de guidage cylindrique.
