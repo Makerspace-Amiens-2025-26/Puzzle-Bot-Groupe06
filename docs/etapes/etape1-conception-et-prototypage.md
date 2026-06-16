@@ -37,6 +37,7 @@ Cette pièce sert à fixer les moteurs pas à pas sur la structure.
 
 ---
 
+
 ### 2. Chariot de préhension
 
 ![Chariot de préhension](https://i.postimg.cc/HkPRRP3c/Capture-d-ecran-2026-06-15-a-14-49-54.png)
@@ -54,6 +55,7 @@ Cette pièce constitue le cœur du système de manipulation.
 - Réduction de l'encombrement afin d'augmenter la précision.
 
 ---
+
 
 ### 3. Bras support de ventouse
 
@@ -84,6 +86,7 @@ Cette conception permet de saisir précisément les pièces du puzzle sans pertu
 
 ---
 
+
 ### 4.Platine de fixation des roulements
 
 ![image](https://i.postimg.cc/hGLhRL9L/Capture-d-ecran-2026-06-16-a-23-39-49.png)
@@ -103,6 +106,7 @@ Cette pièce permet l'installation des roulements utilisés dans les systèmes d
 
 ---
 
+
 ### 5. Support inférieur du portique
 
 ![image](https://i.postimg.cc/44qGwKcB/Capture-d-ecran-2026-06-16-a-23-42-16.png)
@@ -120,6 +124,7 @@ Cette pièce assure la liaison entre le montant vertical et le châssis du robot
 - Fixation robuste sur les profilés aluminium.
 
 ---
+
 
 ## 6. Support de maintien de courroie
 
@@ -146,6 +151,7 @@ Cette pièce permet de maintenir et de fixer la courroie de transmission utilis�
 Cette pièce joue un rôle essentiel dans la transmission du mouvement. Un maintien correct de la courroie permet d'obtenir des déplacements précis et répétables, indispensables pour le positionnement de la tête de préhension.
 
 ---
+
 
 ## 7. Système de support de caméra
 
@@ -220,6 +226,7 @@ Cette pièce est située à l'extrémité du mât et reçoit directement la cam�
 Le système de support de caméra joue un rôle fondamental dans le fonctionnement du Puzzle Bot. En positionnant la caméra à environ 40 cm au-dessus du plateau, il permet d'obtenir une vue complète de la zone de travail. Les images acquises sont ensuite exploitées par les algorithmes de vision artificielle pour détecter les pièces du puzzle et les marqueurs ArUco. La stabilité de ce système est essentielle pour garantir la précision des mesures et la fiabilité de l'assemblage automatique du puzzle.
 
 ---
+
 
 ### 8.Support de maintien du profilé du bloc central
 
