@@ -80,7 +80,7 @@ L'ensemble assure le positionnement précis de la ventouse au-dessus des pièces
 - Conception légère afin de réduire l'inertie des pièces mobiles.
 - Fabrication par impression 3D permettant des modifications rapides lors du prototypage.
 
-  ![image](https://i.postimg.cc/wTRs1p6j/image.png)
+  ![image](https://i.postimg.cc/wTRs1p6j/image.png) ![image](https://i.postimg.cc/DwbRZ5pr/Capture-d-ecran-2026-06-16-a-22-17-40.png)
 
 #### Intérêt pour le projet
 
