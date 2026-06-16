@@ -1,4 +1,4 @@
-### Etape 1 : architecture_systeme.md (Onshape)
+### Etape 1 : architecture_systeme.md (Onshape) 
 
 ### Vue d'ensemble de la structure
 
