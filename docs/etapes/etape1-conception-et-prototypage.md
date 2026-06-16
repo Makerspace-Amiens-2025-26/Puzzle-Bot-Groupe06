@@ -76,7 +76,7 @@ Cette pièce relie la tête de préhension au système de guidage vertical.
 - Faible masse afin de limiter l’inertie du système mobile.
 - Fabrication par impression 3D facilitant les modifications.
 
-
+---
 
 #### Intérêt pour le projet
 
@@ -138,6 +138,8 @@ Cette pièce permet de maintenir et de fixer la courroie de transmission utilis�
 - Géométrie compacte limitant l'encombrement.
 - Fixation simple facilitant le montage et le démontage.
 - Fabrication par impression 3D permettant des modifications rapides.
+
+---
 
 ### Intérêt pour le projet
 
